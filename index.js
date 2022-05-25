@@ -82,7 +82,6 @@ async function run() {
       res.send(result);
     });
   } finally {
-    // await client.close();
   }
 }
 run().catch(console.dir);
